@@ -1,0 +1,162 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f2f8f8;
+    color: #333;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.menu {
+    width: 220px;
+    background-color: #00796b;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.menu h2 {
+    color: white;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu ul li {
+    margin: 18px 0;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+}
+
+.main {
+    width: 100%;
+}
+
+.header {
+    background-color: #e0f2f1;
+    min-height: 220px;
+    text-align: center;
+}
+
+.header img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+}
+
+.content {
+    padding: 30px;
+    min-height: 430px;
+}
+
+.content h1 {
+    color: #00796b;
+}
+
+.content h2 {
+    color: #00897b;
+}
+
+.footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table thead {
+    background-color: #00796b;
+    color: white;
+}
+
+table th,
+table td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    text-align: center;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: #e0f2f1;
+}
+
+form {
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+fieldset {
+    border: 2px solid #00796b;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+legend {
+    color: #00796b;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    margin-top: 15px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00796b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"] {
+    background-color: #777;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+iframe {
+    width: 100%;
+    height: 300px;
+    border: 0;
+    margin-top: 15px;
+}
